@@ -9,11 +9,14 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+/* position navbar links to the right */
 .navLinks {
-    margin-left: 55%;
+    margin-left: 15%;
 }
-#work, #aboutMe, #contactMe, #resume {
+#refactorHarison, #landingP, 
+#preworkStudy, #loginP, #success {
     color: rgb(114, 214, 239);
+    padding-left: 30px;
 }
 #profile-name {
     background-color: rgb(114, 214, 239);
@@ -99,9 +102,6 @@ img {
     bottom: 10px;
     left: 0px;
 }
-#footer {
-    background-color: rgb(114, 214, 239);
-}
 /* vertical line that seperates the footer links from contact me */
 footer .border-line {
     margin-left: -8px;
@@ -114,6 +114,9 @@ header a, footer a {
 }
 footer h2 {
     margin-left: 90px;
+}
+#links .link-item {
+    margin-top: 30px;
 }
 footer a:hover {
    cursor: pointer;
