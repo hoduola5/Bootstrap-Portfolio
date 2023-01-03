@@ -1,3 +1,4 @@
+/* This is a general styling for the whole page */
 * {
     margin: 0;
     padding: 0;
@@ -13,48 +14,60 @@ body {
 .navLinks {
     margin-left: 15%;
 }
+/* This is a general styling for all work pictures */
 #refactorHarison, #landingP, 
 #preworkStudy, #loginP, #success {
     color: rgb(114, 214, 239);
     padding-left: 30px;
 }
+/* Styling the profile name */
 #profile-name {
     background-color: rgb(114, 214, 239);
     padding-left: 40px;
     padding-right: 5px;
     text-decoration: none;
 }
+/* Background image for the profile picture and name in jumbotron */
 #main-profile {
     background-image: url(../images/02-portfolio-4.jpg);
 }
+/* Set the profile picture and name to display flex on x-axis */
 .profile {
     display: flex;
     gap: 100px;
 }
+/* Position the Hammed Website Developer at 130px from the top  */
 .div-title {
     margin-top: 130px;
 }
+/* Style all h2 */
 h2 {
-    /* border-right: 3px solid black; */
     margin-left: 140px;
 }
+/* Style the vertical line */
 .border-line {
     border-left: 4px solid;
     padding-left: 10px auto;
 }
 
+/* Style the About Me h2 */
 .about-me h2 {
     margin-left: 130px;
-    /* margin-right: 10px; */
 }
+
+/* Style Me in the About Me */
 #me1 {
     margin-left: 40px;
 }
+
+/* Give all the work images border */
 #loginPage, #refactorHariseon,
 #landingPage, #prework,
 #successPage {
     border: 4px solid rgb(114, 214, 239);
 }
+
+/* Display grid for the work images */
 #grid-container {
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
@@ -86,10 +99,14 @@ h2 {
     grid-area:successPage;
     background-image: url(../images/02-portfolio-4.jpg);
 }
+
+/* General style for all images */
 img {
     width: 100%;
     height: 100%;
 }
+
+/* Style for all the work images  */
 .work-card {
     margin: 5px;
     position: relative;
@@ -122,6 +139,7 @@ footer a:hover {
    cursor: pointer;
    text-decoration: none;
 }
+/* Style Me in the Contact Me */
 #me2 {
     margin-left: 65px;
 }
